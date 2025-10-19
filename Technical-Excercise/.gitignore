@@ -1,0 +1,45 @@
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+artifacts/
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore Visual Studio and Rider settings
+.vs/
+.idea/
+*.swp
+
+# Ignore publish outputs
+*.publish.xml
+*.pubxml
+*.publishproj
+
+# Ignore local config
+**/appsettings.Development.json
+**/appsettings.Local.json
+.env
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore SQL Server database files
+*.mdf
+*.ldf
+
+# Ignore ETL rejects and logs
+etl/*.rejects.txt
+etl/logs/
+
+# Ignore temporary files
+~$*
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# Ignore output from GitHub Actions
+artifacts/
