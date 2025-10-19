@@ -3,10 +3,13 @@
 Clone repository and run the solution in Technical-Excercise
 
 From there you can run the publish profile in Technical-Excercise: KGS_Demo.Local.publish.publish.xml
+
 -This will create the database along with the procedures
 
 You can then run the CounterpointConnector project which will open swagger to test the api
+
 -/api/tickets
+
 You can use this json for the input:
 
 ```json
@@ -31,11 +34,17 @@ You can use this json for the input:
 ```
 
 You can run the CounterpointConnector.Tests by going to Test -> Run All Tests
+
 -2 Tests should pass
 
 Finally you can run the ETL project KGS.Demo.ETL
+
 -The CSV file has been provided
+
 -Expected result should be:
+
 Validated 3 records.
+
 Upserted 3 records into dbo.PayrollEligibility.
+
 Done.
