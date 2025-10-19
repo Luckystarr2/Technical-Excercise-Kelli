@@ -8,6 +8,8 @@ From there you can run the publish profile in Technical-Excercise: KGS_Demo.Loca
 You can then run the CounterpointConnector project which will open swagger to test the api
 -/api/tickets
 You can use this json for the input:
+
+```json
 {
   "customerAccountNo": "CUST1001",
   "lines": [
@@ -15,13 +17,18 @@ You can use this json for the input:
     { "sku": "SKU-200", "qty": 1, "overridePrice": 19.99 }
   ]
 }
+```
+
 -Expected results should be:
+
+```json
 {
   "ticketID": 10005,
   "subtotal": 39.97,
   "taxAmount": 3.3,
   "total": 43.27
 }
+```
 
 You can run the CounterpointConnector.Tests by going to Test -> Run All Tests
 -2 Tests should pass
